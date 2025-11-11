@@ -16,7 +16,6 @@ This project focuses on predicting customer churn — the likelihood that a cust
 ## Dataset
 The dataset contains customer information such as demographics, account details, and service usage patterns.  
 Each record is labeled as "Churn" or "Not Churn".  
-Source: [Kaggle Telecom Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
 ## Methodology
 1. Data cleaning and preprocessing (handling missing values, encoding categorical features)
