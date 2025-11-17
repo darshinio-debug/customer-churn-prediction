@@ -42,6 +42,6 @@ Future improvements may include deep learning models and deployment using Stream
 ## Author
 👩‍💻 **Darshini Oudayachnadirane**  
 AI & ML Enthusiast | Biomedical Engineer | Data Science Learner  
-📧 [darshiniouday@example.com]  
+📧 [darshiniouday@gmail.com]  
 🌐 [www.linkedin.com/in/darshini-so]
 
