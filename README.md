@@ -1,4 +1,4 @@
-# customer-churn-prediction
+# Customer-Churn-Prediction
 Machine learning model to predict customer churn using behavioral and demographic data.
 
 ## Table of Contents
