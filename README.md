@@ -76,6 +76,7 @@ Each record is labeled as:
 ![Churn Distribution]([images/churn_distribution.png](https://github.com/darshinio-debug/customer-churn-prediction/blob/main/Churn%20Distribution.png))
 ![Feature Importance]([images/feature_importance.png](https://github.com/darshinio-debug/customer-churn-prediction/blob/main/Feature%20distribution%5BRandom%20Forest%5D.png))
 ![ROC Curve]([images/roc_curve.png](https://github.com/darshinio-debug/customer-churn-prediction/blob/main/ROC%20curve.png))
+
 ```
 
 ---
