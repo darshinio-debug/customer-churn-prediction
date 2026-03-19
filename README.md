@@ -1,47 +1,122 @@
-# Customer-Churn-Prediction
+# 📊 Customer Churn Prediction
+
 Machine learning model to predict customer churn using behavioral and demographic data.
 
-## Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Technologies Used](#technologies-used)
-- [How to Run](#how-to-run)
-- [Open in Google Colab](#open-in-google-colab)
+---
 
-## Overview
-This project focuses on predicting customer churn — the likelihood that a customer will stop using a company’s service. By analyzing behavioral and demographic data, this machine learning model helps businesses identify customers at risk and take proactive steps to retain them.
+## 📌 Project Overview
 
-## Dataset
-The dataset contains customer information such as demographics, account details, and service usage patterns.  
-Each record is labeled as "Churn" or "Not Churn".  
+This project focuses on predicting **customer churn** — the likelihood that a customer will stop using a company’s service.
 
-## Methodology
-1. Data cleaning and preprocessing (handling missing values, encoding categorical features)
-2. Exploratory Data Analysis (EDA) for feature relationships
-3. Feature selection and scaling
-4. Model building using algorithms like Logistic Regression, Random Forest, and XGBoost
-5. Model evaluation using accuracy, precision, recall, and ROC-AUC score
+By analyzing customer behavior and demographic data, the model helps businesses:
 
-## Results
-- Achieved 80% accuracy and 0.79 ROC-AUC score on test data.
-- Identified key factors influencing churn such as tenure, monthly charges, and contract type.
+* Identify customers at risk
+* Take proactive retention actions
+* Improve customer lifetime value
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Google Colab
+---
 
-## Conclusion
-This project demonstrates how machine learning can be applied to business problems like churn prediction.  
-Future improvements may include deep learning models and deployment using Streamlit or Flask for real-time churn prediction.
+## 📊 Dataset
 
-## Author
-👩‍💻 **Darshini Oudayachnadirane**  
-AI & ML Enthusiast | Biomedical Engineer | Data Science Learner  
-📧 [darshiniouday@gmail.com]  
-🌐 [www.linkedin.com/in/darshini-so]
+The dataset contains customer information such as:
+
+* Demographics
+* Account details
+* Service usage patterns
+
+Each record is labeled as:
+
+* **Churn**
+* **Not Churn**
+
+👉 📁 Dataset: *(https://drive.google.com/file/d/1DS75rKUh7st69uddU19pRKiNhJdkbkxB/view?usp=sharing)*
+
+---
+
+## 🧠 Methodology
+
+* Data cleaning and preprocessing
+
+  * Handling missing values
+  * Encoding categorical variables
+* Exploratory Data Analysis (EDA)
+* Feature selection and scaling
+* Model building using:
+
+  * Logistic Regression
+  * Random Forest
+  * XGBoost
+* Model evaluation using:
+
+  * Accuracy
+  * Precision
+  * Recall
+  * ROC-AUC Score
+
+---
+
+## 📈 Results
+
+* ✅ Accuracy: **80%**
+* ✅ ROC-AUC Score: **0.79**
+
+### 🔍 Key Insights:
+
+* Customers with **short tenure** are more likely to churn
+* **Higher monthly charges** increase churn probability
+* **Contract type** significantly impacts retention
+
+---
+
+## 📊 Visualizations
+
+👉 *(Add screenshots of your charts here)*
+
+```md
+![Churn Distribution](images/churn_distribution.png)
+![Feature Importance](images/feature_importance.png)
+![ROC Curve](images/roc_curve.png)
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+* Google Colab
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the notebook in Jupyter/Colab
+
+---
+
+## 🚀 Future Improvements
+
+* Deploy using Streamlit or Flask
+* Try deep learning models
+* Improve model performance with hyperparameter tuning
+
+---
+
+## 👩‍💻 Author
+
+**Darshini Oudayachandirane**
+AI & ML Enthusiast | Biomedical Engineer | Data Science Learner
+
+
+
+
 
